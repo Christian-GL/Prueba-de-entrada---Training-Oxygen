@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Training Oxygen</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div id="divUnitConverter">
+        <h3>⇆ unit converter</h3>
+    </div>
+    <hr/>
+    <div id="divGeneral">
+        <div id="divArriba">
+            <h1 id="titulo">convert</h1>
+        </div>
+        <div id="divCentro">
+            <div id="divCentroIzq">
+                <select id="selectTipo">
+                    <option value="1">km → millas</option>
+                    <option value="2">millas → km</option>
+                    <option value="3">pies → metros</option>
+                    <option value="4">metros → pies</option>
+                    <option value="5">cm → pulgadas</option>
+                    <option value="6">pulgadas → cm</option>
+                </select>
+                <button id="botonFlechas">
+                    <img id="imgFlechas" src="img/FlechasHorizontales.png">
+                </button>
+            </div>
+            <div id="divCentroDer">
+                <input type="text" id="inputDatos" type="text" placeholder="00.00">
+                <p id="pUnidadMedida"></p>
+            </div>
+        </div>
+        <div id="divAbajo">
+            <button id="botonCorazon">
+                <img id="imgCorazon" src="img/Corazon.png">
+            </button>
+            <p id="pResultado">00.00</p>
+            <p id="pResultadoUnidad"></p>
+        </div>
+    </div>
+
+    <ul id="listadoResultados">
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

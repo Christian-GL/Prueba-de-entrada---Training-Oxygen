@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+#divUnitConverter {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+#divGeneral {
+    max-width: 800px;
+    max-height: 300px;
+    margin: auto;
+    text-align: left;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    background-color: #30043c;
+}
+
+#divArriba {
+    /* background-color: #129d02; */
+    height: 100%;
+}
+#titulo {
+    display: inline-block;
+}
+
+#divCentro {
+    display: flex;
+    width: 100%;
+    /* background-color: #ffffff; */
+}
+#divCentroIzq {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* background-color: #0400ff; */
+}
+#selectTipo {
+    width: 60%;
+    height: 25%;
+}
+#botonFlechas {
+    width: 25%;
+    height: 100%;
+    margin: auto;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+    transition: background-color .5s;
+}
+#botonFlechas:hover {
+    background-color: #fbff00;
+    color: #fff;
+}
+#imgFlechas {
+    width: 100%;
+    height: 100%;
+}
+#divCentroDer {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* background-color: #ff0022; */
+}
+/* #inputDatos {
+    
+} */
+#pUnidadMedida {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+/* #divAbajo {
+    background-color: #0e9b01;
+} */
+#botonCorazon {
+    width: 10%;
+    height: 10%;
+    margin: auto;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+    transition: background-color .5s;
+}
+#botonCorazon:hover {
+    background-color: #fbff00;
+    color: #fff;
+}
+#imgCorazon {
+    width: 100%;
+    height: 100%;
+}
+#pResultado {
+    display: inline-block;
+}
+#pResultadoUnidad {
+    display: inline-block;
+}
+
+ul {
+    text-align: center;
+}
+ul li {
+    border-bottom: 1px dashed #333;
+    margin: 20px 0;
+}
